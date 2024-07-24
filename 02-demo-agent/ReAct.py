@@ -1,7 +1,7 @@
 import logging
 
 
-#logging.basicConfig(level=logging.DEBUG)  # 修改日志级别为DEBUG
+logging.basicConfig(level=logging.DEBUG)  # 修改日志级别为DEBUG
 
 from dotenv import load_dotenv
 load_dotenv()  
